@@ -1,0 +1,44 @@
+@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/utilities" layer(utilities);
+@import "aos/dist/aos.css";
+
+@layer theme {
+  :root {
+    --color-blue: #063046;
+    --color-blue-50: #628BA0;
+    --color-white: #ffffff;
+    --font-cormorant: "Cormorant Garamond", serif;
+  }
+}
+*{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+body{
+  font-family: "Zen Old Mincho", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-blue);
+  margin: 0;
+}
+
+.container-responsive{
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+

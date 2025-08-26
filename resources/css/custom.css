@@ -1,0 +1,209 @@
+:root {
+  --color-green: #95DBC3;
+}
+
+.entry-content,
+.block-editor-block-list__layout {
+  color: var(--color-zinc-950);
+  font-size: var(--text-lg);
+  line-height: var(--text-lg--line-height);
+
+  :where(
+      .entry-content > *:not(li),
+      .block-editor-block-list__layout > *:not(li)
+    ) {
+    margin-top: --spacing(6);
+    margin-bottom: --spacing(6);
+  }
+
+  :where(h2) {
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--text-2xl);
+    line-height: var(--text-2xl--line-height);
+    margin-top: --spacing(12);
+  }
+
+  :where(h3) {
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--text-xl);
+    line-height: var(--text-xl--line-height);
+    margin-top: --spacing(8);
+  }
+
+  :where(h2 + h3) {
+    margin-top: 0;
+  }
+
+  :where(ul, ol) {
+    padding-left: 1.5rem;
+  }
+
+  :where(ul) {
+    list-style-type: disc;
+  }
+
+  :where(ol) {
+    list-style-type: decimal;
+  }
+
+  :where(a) {
+    color: var(--color-primary);
+  }
+
+  :where(li) {
+    padding-left: --spacing(3);
+  }
+
+  :where(li)::marker {
+    color: var(--color-zinc-500);
+  }
+
+  :where(li > *),
+  :where(li li) {
+    margin-top: --spacing(4);
+  }
+
+  :where(ol > li)::marker {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-semibold);
+  }
+
+  :where(strong) {
+    font-weight: var(--font-weight-semibold);
+  }
+
+  :where(figure) {
+    margin-top: --spacing(12);
+    margin-bottom: --spacing(12);
+  }
+
+  :where(li > :first-child) {
+    margin-top: 0 !important;
+  }
+
+  :where(li > :last-child) {
+    margin-bottom: 0 !important;
+  }
+}
+
+#header.scrolled > div{
+  background: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#header.scrolled > div .head-cta{
+  margin-top: 8px;
+}
+
+.recruitment-form{
+  padding: 0 49px 0 41px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.recruitment-form .form-row p{
+  display: flex;
+  gap: 37px;
+  margin: 0;
+}
+.recruitment-form .form-label{
+  width: 271px;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 2px;
+}
+.recruitment-form .required-badge{
+  width: 52px;
+  background: #E53935;
+  margin-top: 7px;
+  height: 23px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  line-height: 23px;
+}
+.wpcf7-form-control-wrap{
+  border: 1px solid #C7C7C7;
+  width: calc(100% - 308px);
+  border-radius: 0;
+  height: 38px;
+  text-align: left;
+}
+.wpcf7-form-control-wrap:has(.wpcf7-not-valid) {
+  border: 1px solid #E53935;
+}
+.wpcf7-form-control-wrap input,
+.wpcf7-form-control-wrap select{
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-right: 10px;
+  padding-left: 21px;
+  box-shadow: unset;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+.wpcf7-form-control-wrap[data-name="employment-type"]{
+  width: 217px
+}
+.wpcf7-form-control-wrap[data-name="employment-type"] select{
+  appearance: none;
+  background: url(../images/icon-arrow-down.svg) no-repeat right 5px top 13px;
+  background-size: 16px;
+}
+.wpcf7-submit{
+  width: 309px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #95DBC3;
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  color: #fff;
+  border: none;
+  margin: 26px auto;
+  border-radius: 90px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1023px) {
+  .recruitment-form{
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .recruitment-form .form-label{
+    width: 200px;
+  }
+  .wpcf7-form-control-wrap{
+    width: calc(100% - 238px);
+  }
+}
+@media only screen and (max-width: 640px) {
+  #header.scrolled > div .head-cta{
+    margin-top: 0px;
+  }
+
+  .recruitment-form .form-row p{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .recruitment-form .required-badge{
+    margin-top: 0;
+  }
+  .recruitment-form .form-label{
+    width: 100%;
+    font-size: 14px;
+    align-items: center;
+  }
+  .wpcf7-form-control-wrap{
+    width: 100%;
+  }
+  .wpcf7-form-control-wrap[data-name="employment-type"]{
+    width: 100%;
+  }
+}
