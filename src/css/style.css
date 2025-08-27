@@ -42,3 +42,19 @@ body{
   padding: 0 20px;
 }
 
+.section-title{
+  font-size: 120px;
+  font-weight: bold;
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.highlight-text {
+  color: var(--color-blue);
+  font-weight: bold;
+  letter-spacing: 2.8px;
+  font-size: 28px;
+
+}

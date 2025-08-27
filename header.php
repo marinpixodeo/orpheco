@@ -14,7 +14,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site overflow-x-hidden">
     <header id="header" class="site-header fixed top-0 left-0 w-full z-50">
-        <div class="flex items-start justify-between py-[49px] px-[30px] duration-300 ease-in-out">
+        <div class="flex items-start justify-between py-[17px] px-[30px] duration-300 ease-in-out">
             <!-- Logo Section -->
             <div class="logo w-full max-w-[200px] md:max-w-[280px] lg:mt-[3px]">
                 <a href="<?php echo esc_url(home_url('/')); ?>" class="flex items-start group w-full">

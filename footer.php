@@ -1,9 +1,12 @@
-
     <footer id="colophon" class="site-footer footer-section">
-        <p class="text-white text-[12px] py-[9px] font-bold text-center bg-[var(--color-orange)] my-0 tracking-[1px]">
-            Copyright © 株式会社C＆Cメディカル All rights Reserved.
-        </p>
+        <div class="w-[1920px] h-9 relative bg-sky-950 overflow-hidden">
+            <div class="left-[772px] top-[12px] absolute justify-start text-white text-xs font-medium font-['Zen_Old_Mincho'] leading-3 tracking-wide">Copyright © 愛車の輝きコンシェルジュ All rights Reserved.</div>
+        </div>
     </footer>
+<!--    <div class="size- pl-5 pr-7 py-5 bg-slate-500 rounded-tl-lg rounded-bl-lg inline-flex justify-start items-center gap-3.5">-->
+<!--        <img class="size-8" src="https://placehold.co/31x31" />-->
+<!--        <div class="justify-start"><span class="text-white text-base font-bold font-['Zen_Old_Mincho'] leading-tight">即日のご依頼可能<br/></span><span class="text-white text-lg font-bold font-['Zen_Old_Mincho'] leading-normal">無料相談実施中</span></div>-->
+<!--    </div>-->
 </div>
 
 <script>
