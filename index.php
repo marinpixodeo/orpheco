@@ -247,57 +247,52 @@
             </div>
         </div>
     </div>
-    <div class="h-[898px] relative bg-white overflow-hidden">
-        <img class="w-[725px] h-64 left-[775px] top-[548px] absolute" src="https://placehold.co/725x250" />
-        <div class="w-[725px] left-[775px] top-[100px] absolute inline-flex flex-col justify-start items-start gap-5">
-            <div class="self-stretch flex flex-col justify-start items-start gap-6">
-                <div class="w-[725px] inline-flex justify-start items-center gap-24">
-                    <div class="w-32 justify-start text-base font-medium leading-normal tracking-wider">窓口名</div>
-                    <div class="justify-start text-base font-medium leading-normal tracking-wider">愛車の輝きコンシェルジュ</div>
+
+    <?php
+        $table_company = [
+            '窓口名' => '愛車の輝きコンシェルジュ',
+            '所在地' => '〒920-0003<br>石川県金沢市疋田３丁目67番地',
+            '電話番号' => '090-4324-0225',
+            'FAX番号' => '0503-488-7083',
+            '営業時間' => '9:00～19:00',
+            '定休日' => '不定休',
+        ];
+    ?>
+
+    <section class="relative bg-white overflow-hidden bg-[#FEEEE9] pt-[100px] pb-[100px]">
+        <div class="container-responsive">
+            <div class="w-full flex justify-between gap-8 items-start">
+                <div class="flex flex-col items-start">
+                    <div class="section-title ">INFO</div>
+                    <div class="highlight-text text-left mt-[-3px]">窓口概要</div>
                 </div>
-                <div class="w-[725px] h-0 outline outline-1 outline-offset-[-0.50px] outline-stone-300"></div>
-            </div>
-            <div class="self-stretch flex flex-col justify-start items-start gap-6">
-                <div class="w-[725px] inline-flex justify-start items-center gap-24">
-                    <div class="w-32 justify-start text-base font-medium leading-normal tracking-wider">所在地</div>
-                    <div class="justify-start text-base font-medium leading-normal tracking-wider">〒920-0003<br/>石川県金沢市疋田３丁目67番地</div>
+                <div class="w-full lg:max-w-[800px]">
+                    <div data-aos="fade-up" data-aos-delay="200" class="bg-white w-full rounded-[8px] px-[38px] mt-[-20px] pb-[40px]">
+                        <table class="w-full">
+                            <tbody>
+                            <?php foreach ($table_company as $key => $value) :  ?>
+                                <tr>
+                                    <td class="w-[100px] sm:w-[201px] text-sm md:text-[16px] align-middle font-bold text-[var(--color-orange)] tracking-[1.5px] border-b border-[#C7C7C7]">
+                                        <?= $key ?>
+                                    </td>
+                                    <td class="px-5 py-[15px] sm:pt-[20px] sm:pb-[24px] leading-[20px] md:leading-[24px] text-sm md:text-[16px] tracking-[1.6px]  <?php if($key == '所在地') echo '!tracking-[0.8px]'?> border-b border-[#C7C7C7]">
+                                        <?= nl2br($value); ?>
+                                    </td>
+                                </tr>
+                            <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="400" class=" max-w-full lg:max-w-[800px]">
+                        <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6000!2d136.98896710737566!3d35.203360104066476!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60036fc5e7fcc54d%3A0x6d765d74cc68a93a!2z5pel5pys44CB44CSNDYzLTAwMjEg5oSb55-l55yM5ZCN5Y-k5bGL5biC5a6I5bGx5Yy65aSn5qOu77yR5LiB55uu77yS77yR77yR77yU!5e0!3m2!1sja!2sus!4v1755771893723!5m2!1sja!2sus"
+                                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
-                <div class="w-[725px] h-0 outline outline-1 outline-offset-[-0.50px] outline-stone-300"></div>
-            </div>
-            <div class="self-stretch flex flex-col justify-start items-start gap-6">
-                <div class="w-[725px] inline-flex justify-start items-center gap-24">
-                    <div class="w-32 justify-start text-base font-medium leading-normal tracking-wider">電話番号</div>
-                    <div class="justify-start text-base font-medium leading-normal tracking-wider">090-4324-0225</div>
-                </div>
-                <div class="w-[725px] h-0 outline outline-1 outline-offset-[-0.50px] outline-stone-300"></div>
-            </div>
-            <div class="self-stretch flex flex-col justify-start items-start gap-6">
-                <div class="w-[725px] inline-flex justify-start items-center gap-24">
-                    <div class="w-32 justify-start text-base font-medium leading-normal tracking-wider">FAX番号</div>
-                    <div class="justify-start text-base font-medium leading-normal tracking-wider">0503-488-7083</div>
-                </div>
-                <div class="w-[725px] h-0 outline outline-1 outline-offset-[-0.50px] outline-stone-300"></div>
-            </div>
-            <div class="self-stretch flex flex-col justify-start items-start gap-6">
-                <div class="w-[725px] inline-flex justify-start items-center gap-24">
-                    <div class="w-32 justify-start text-base font-medium leading-normal tracking-wider">営業時間</div>
-                    <div class="justify-start text-base font-medium leading-normal tracking-wider">9:00～19:00</div>
-                </div>
-                <div class="w-[725px] h-0 outline outline-1 outline-offset-[-0.50px] outline-stone-300"></div>
-            </div>
-            <div class="self-stretch flex flex-col justify-start items-start gap-6">
-                <div class="w-[725px] inline-flex justify-start items-center gap-24">
-                    <div class="w-32 justify-start text-base font-medium leading-normal tracking-wider">定休日</div>
-                    <div class="justify-start text-base font-medium leading-normal tracking-wider">不定休</div>
-                </div>
-                <div class="w-[725px] h-0 outline outline-1 outline-offset-[-0.50px] outline-stone-300"></div>
+
             </div>
         </div>
-        <div class="w-[1080px] h-40 left-[420px] top-[100px] absolute">
-            <div class="w-[1080px] left-0 top-[118px] absolute justify-start text-3xl font-bold leading-9 tracking-[2.80px]">窓口概要</div>
-            <div class="w-[1080px] left-0 top-0 absolute justify-start text-9xl font-bold font-['Cormorant_Garamond'] leading-[120px]">INFO</div>
-        </div>
-    </div>
+    </section>
 </div>
 
 <?php get_footer(); ?>
