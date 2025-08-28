@@ -181,63 +181,70 @@
             </div>
         </div>
     </div>
-    <div class="h-[1318px] relative bg-white overflow-hidden">
-        <div class="w-[963px] left-[479px] top-[304px] absolute inline-flex flex-col justify-start items-start gap-7">
-            <div class="self-stretch inline-flex justify-start items-end gap-7">
-                <img class="w-24 h-28" src="https://placehold.co/103x106" />
-                <div class="size-24 bg-[var(--color-blue)]"></div>
-                <div class="size- px-10 py-7 bg-white shadow-[4px_4px_10px_0px_rgba(6,48,70,0.20)] flex justify-center items-center gap-2.5">
-                    <div class="w-[750px] text-justify justify-start text-base font-medium leading-relaxed tracking-wider">MASERATIの磨きやコーティングや洗車でお世話になりました。とても技術力が高くプロの仕事をして頂きました。綺麗な仕上がりと良心的な価格に大満足です。スタッフさんもとても誠実な方なので安心して大事な愛車を依頼出来ます。国産も外車もお勧めです！！</div>
+    <div class="relative bg-white overflow-hidden pt-[98px] pb-[100px]">
+        <div class="container-responsive">
+            <div class="flex flex-col items-center w-full">
+                <div class="section-title ">REVIEW</div>
+                <div class="highlight-text mt-[-3px]">ご依頼いただいたお客様のお声</div>
+            </div>
+            <div class="max-w-[963px] mx-auto flex flex-col items-center mt-[48px] gap-7.5">
+                <div class="flex items-end gap-7">
+                    <img class="w-[103px]" src="<?= THEME_URL ?>/images/review_icon.webp" />
+                    <div class="flex px-[42px] pr-[35px] py-[30px] bg-white shadow-[4px_4px_10px_0px_rgba(6,48,70,0.20)] flex justify-center items-center gap-2.5">
+                        <div class="text-base font-medium leading-relaxed tracking-[1.9px]">MASERATIの磨きやコーティングや洗車でお世話になりました。とても技術力が高くプロの仕事をして頂きました。綺麗な仕上がりと良心的な価格に大満足です。スタッフさんもとても誠実な方なので安心して大事な愛車を依頼出来ます。国産も外車もお勧めです！！</div>
+                    </div>
+                </div>
+                <div class="flex items-end gap-7">
+                    <img class="w-[103px]" src="<?= THEME_URL ?>/images/review_icon.webp" />
+                    <div class="flex px-[42px] pr-[35px] py-[30px] bg-white shadow-[4px_4px_10px_0px_rgba(6,48,70,0.20)] flex justify-center items-center gap-2.5">
+                        <div class="text-base font-medium leading-relaxed tracking-[1.9px]">本日コーティングメンテナンスを時間をかけてしっかりとしてもらいました。自分で洗車したのと違って納車時の輝きを取り戻した感じです。以前もデントリペアしてもらい今回も洗車のいい話しを聞けました。次回もよろしくお願いします。</div>
+                    </div>
+                </div>
+                <div class="flex items-end gap-7">
+                    <img class="w-[103px]" src="<?= THEME_URL ?>/images/review_icon.webp" />
+                    <div class="flex px-[42px] pr-[35px] py-[30px] bg-white shadow-[4px_4px_10px_0px_rgba(6,48,70,0.20)] flex justify-center items-center gap-2.5">
+                        <div class="text-base font-medium leading-relaxed tracking-[1.9px]">ボディのコーティングと窓ガラスコーティングをしてもらいました。とても満足のいく仕上がりで嬉しかったです。スタッフさんの対応もすごく良かったです。今度はメンテナンスで依頼すると思うのでよろしくお願いします。</div>
+                    </div>
+                </div>
+                <div class="flex items-end gap-7">
+                    <img class="w-[103px]" src="<?= THEME_URL ?>/images/review_icon.webp" />
+                    <div class="flex px-[42px] pr-[35px] py-[30px] bg-white shadow-[4px_4px_10px_0px_rgba(6,48,70,0.20)] flex justify-center items-center gap-2.5">
+                        <div class="text-base font-medium leading-relaxed tracking-[1.9px]">3～4年洗車や手入れしておらず放ったらかしにしていたので長年の汚れが蓄積していて、、自分で軽く手洗いしても全く綺麗にならず諦めてましたが、知り合いに紹介して貰い今回初めてプロに洗車をお願いしてみました！スタンドでして貰う洗車よりは少しお値段しますが、この状態からこんなにも綺麗にして貰えるクオリティや1日かけて丁寧に磨いてくれることを加味しても納得のお値段かなと思いました。コーティングしてもらったことで自分でも綺麗を維持しやすくなると教えていただけたので、これからのお手入れも楽しみです！私は軽自動車/SSサイズ、24,200円でした！(リセット洗車+艶出し磨き)参考までに！ほんまに綺麗！またお願いしたいです^_^</div>
+                    </div>
+                </div>
+                <div class="flex items-end gap-7">
+                    <img class="w-[103px]" src="<?= THEME_URL ?>/images/review_icon.webp" />
+                    <div class="flex px-[42px] pr-[35px] py-[30px] bg-white shadow-[4px_4px_10px_0px_rgba(6,48,70,0.20)] flex justify-center items-center gap-2.5">
+                        <div class="text-base font-medium leading-relaxed tracking-[1.9px]">当日に洗車予約しましたが、快く受けていただきました。丁寧な対応で仕上がりも良かったです。またお願いします。</div>
+                    </div>
                 </div>
             </div>
-            <div class="self-stretch inline-flex justify-start items-end gap-7">
-                <img class="w-24 h-28" src="https://placehold.co/103x106" />
-                <div class="size-24 bg-[var(--color-blue)]"></div>
-                <div class="size- px-10 py-7 bg-white shadow-[4px_4px_10px_0px_rgba(6,48,70,0.20)] flex justify-center items-center gap-2.5">
-                    <div class="w-[750px] text-justify justify-start text-base font-medium leading-relaxed tracking-wider">本日コーティングメンテナンスを時間をかけてしっかりとしてもらいました。自分で洗車したのと違って納車時の輝きを取り戻した感じです。以前もデントリペアしてもらい今回も洗車のいい話しを聞けました。次回もよろしくお願いします。</div>
-                </div>
-            </div>
-            <div class="self-stretch inline-flex justify-start items-end gap-7">
-                <img class="w-24 h-28" src="https://placehold.co/103x106" />
-                <div class="size-24 bg-[var(--color-blue)]"></div>
-                <div class="size- px-10 py-7 bg-white shadow-[4px_4px_10px_0px_rgba(6,48,70,0.20)] flex justify-center items-center gap-2.5">
-                    <div class="w-[750px] text-justify justify-start text-base font-medium leading-relaxed tracking-wider">ボディのコーティングと窓ガラスコーティングをしてもらいました。とても満足のいく仕上がりで嬉しかったです。スタッフさんの対応もすごく良かったです。今度はメンテナンスで依頼すると思うのでよろしくお願いします。</div>
-                </div>
-            </div>
-            <div class="self-stretch inline-flex justify-start items-end gap-7">
-                <img class="w-24 h-28" src="https://placehold.co/103x106" />
-                <div class="size-24 bg-[var(--color-blue)]"></div>
-                <div class="size- px-10 py-7 bg-white shadow-[4px_4px_10px_0px_rgba(6,48,70,0.20)] flex justify-center items-center gap-2.5">
-                    <div class="w-[750px] text-justify justify-start text-base font-medium leading-relaxed tracking-wider">3～4年洗車や手入れしておらず放ったらかしにしていたので長年の汚れが蓄積していて、、自分で軽く手洗いしても全く綺麗にならず諦めてましたが、知り合いに紹介して貰い今回初めてプロに洗車をお願いしてみました！スタンドでして貰う洗車よりは少しお値段しますが、この状態からこんなにも綺麗にして貰えるクオリティや1日かけて丁寧に磨いてくれることを加味しても納得のお値段かなと思いました。コーティングしてもらったことで自分でも綺麗を維持しやすくなると教えていただけたので、これからのお手入れも楽しみです！私は軽自動車/SSサイズ、24,200円でした！(リセット洗車+艶出し磨き)参考までに！ほんまに綺麗！またお願いしたいです^_^</div>
-                </div>
-            </div>
-            <div class="self-stretch inline-flex justify-start items-end gap-7">
-                <img class="w-24 h-28" src="https://placehold.co/103x106" />
-                <div class="size-24 bg-[var(--color-blue)]"></div>
-                <div class="size- px-10 py-7 bg-white shadow-[4px_4px_10px_0px_rgba(6,48,70,0.20)] flex justify-center items-center gap-2.5">
-                    <div class="w-[750px] text-justify justify-start text-base font-medium leading-relaxed tracking-wider">当日に洗車予約しましたが、快く受けていただきました。丁寧な対応で仕上がりも良かったです。またお願いします。</div>
-                </div>
-            </div>
-        </div>
-        <div class="w-[1080px] h-40 left-[420px] top-[100px] absolute">
-            <div class="w-[1080px] left-0 top-[118px] absolute text-center justify-start text-3xl font-bold leading-9 tracking-[2.80px]">ご依頼いただいたお客様のお声</div>
-            <div class="w-[1080px] left-0 top-0 absolute text-center justify-start text-9xl font-bold font-['Cormorant_Garamond'] leading-[120px]">REVIEW</div>
         </div>
     </div>
-    <div class="h-80 relative overflow-hidden">
-        <div class="w-[639px] h-40 left-[961px] top-[80px] absolute bg-white"></div>
-        <div class="w-64 h-16 left-[1310px] top-[122px] absolute bg-slate-500 rounded-lg inline-flex justify-center items-center gap-2.5 overflow-hidden">
-            <img class="size-5" src="https://placehold.co/22x22" />
-            <div class="justify-start text-white text-base font-bold leading-none">LINEで簡単問い合わせ</div>
-        </div>
-        <div class="w-56 h-3.5 left-[1057px] top-[172.58px] absolute justify-start text-slate-500 text-sm font-medium leading-none">営業時間│9：00～19：00(不定休)</div>
-        <div class="w-64 h-9 left-[1017px] top-[128px] absolute justify-start text-4xl font-bold leading-9">090-4324-0225</div>
-        <div class="size-4 left-[991px] top-[140.16px] absolute overflow-hidden">
-            <div class="size-4 left-0 top-0 absolute bg-slate-500"></div>
-        </div>
-        <div class="w-[1080px] h-40 left-[320px] top-[80px] absolute">
-            <div class="w-[1080px] left-0 top-[118px] absolute justify-start text-white text-3xl font-bold leading-9 tracking-[2.80px]">お問い合わせはこちら</div>
-            <div class="w-[1080px] left-0 top-0 absolute justify-start text-white text-9xl font-bold font-['Cormorant_Garamond'] leading-[120px]">CONTACT</div>
+    <div class="relative pt-[80px] pb-[78px]">
+        <img class="absolute top-0 left-0" src="<?= THEME_URL ?>/images/cta_bg.webp" alt="">
+        <div class="container-responsive min-w-[1320px] relative z-[1]">
+            <div class="flex justify-between items-center">
+                <div class="w-[calc(50%-1px)]">
+                    <div class="section-title !text-white">CONTACT</div>
+                    <div class="highlight-text !text-white mt-[-4px]">お問い合わせはこちら</div>
+                </div>
+                <div class="w-[calc(50%-1px)] bg-white flex items-center justify-between px-[30px] py-[42px] gap-[30px] mt-[-2px] duration-300 ease-in-out">
+                    <div class="flex items-center mt-[-1px]">
+                        <a class="flex items-end flex-col justify-center !no-underline text-[36px] font-bold tracking-[0px] text-[var(--color-blue)] mt-[-16px]" href="tel:090-4324-0225">
+                        <span class="flex items-center">
+                            <span class="mr-[10px] mt-2 leading-1 inline-block"><img src="<?= THEME_URL ?>/images/icon-tel.webp" ></span>090-4324-0225
+                        </span>
+                            <span class="block text-[14px] text-[var(--color-blue-50)] font-medium leading-1 tracking-[0.2px] mt-[6px]">営業時間│9 : 00～19 : 00(不定休)</span>
+                        </a>
+                    </div>
+
+                    <a href="#inquiry" class="hidden md:flex btn bg-[var(--color-blue-50)] rounded-[8px] w-[260px] h-[70px] flex items-center justify-center text-white gap-3">
+                        <img src="<?= THEME_URL;?>/images/icon-line.webp" alt="">
+                        <span>LINEで簡単問い合わせ</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="h-[898px] relative bg-white overflow-hidden">
