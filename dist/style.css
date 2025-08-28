@@ -2127,8 +2127,8 @@ body {
   color: var(--color-blue);
   margin: 0;
 }
-table > a {
-  color: var(--color-blue);
+table a {
+  color: var(--color-blue) !important;
 }
 header.scrolled {
   background: var(--color-blue);
