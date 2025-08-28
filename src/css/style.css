@@ -18,6 +18,10 @@ a{
   text-decoration: none;
 }
 
+a:hover{
+  filter: opacity(0.8);
+}
+
 table{
   border-collapse: collapse;
 }
@@ -36,12 +40,12 @@ body{
   margin: 0;
 }
 
-.container-responsive{
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 0 20px;
+table > a{
+  color: var(--color-blue);
 }
-
+header.scrolled{
+  background: var(--color-blue);
+}
 .section-title{
   font-size: 120px;
   font-weight: bold;
@@ -56,5 +60,38 @@ body{
   font-weight: bold;
   letter-spacing: 2.8px;
   font-size: 28px;
+}
+@media screen and (max-width: 1080px) {
+  .contents_box{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contents_box{
+    min-width: 1080px;
+    max-width: 1080px;
+    width: 56.25%;
+    margin: 0 auto;
+  }
+}
 
+@media screen and (max-width: 767px) {
+  body{
+    font-size: 14px;
+  }
+  .contents_box{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .section-title{
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+  }
+  .highlight-text {
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-align: center;
+  }
 }
