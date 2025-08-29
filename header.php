@@ -15,7 +15,7 @@
 <div id="page" class="site overflow-x-hidden">
     <header id="header" class="site-header fixed top-0 left-0 w-full z-50">
         <div class="flex items-start justify-center duration-300 ease-in-out py-[10px] bg-[var(--color-blue)] md:bg-transparent md:justify-between md:py-[17px] md:px-[30px]">
-            <div class="logo w-full max-auto max-w-[200px] md:max-w-[280px] lg:mt-[3px]">
+            <div class="logo w-full max-auto max-w-[135px] md:max-w-[280px] lg:mt-[3px]">
                 <a href="<?php echo esc_url(home_url('/')); ?>" class="flex items-start group w-full">
                      <img src="<?= THEME_URL; ?>images/logo.webp" alt="">
                 </a>
@@ -38,7 +38,7 @@
                     </a>
                 </div>
 
-                <a href="#inquiry" class="
+                <a href="https://line.me/R/ti/p/@564totjb" target="_blank" class="
                 flex btn bg-[var(--color-blue-50)] h-[60px] flex items-center justify-center text-white gap-2 w-[50%]
                 md:w-[260px] md:rounded-[8px] md:gap-3
 

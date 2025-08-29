@@ -34,9 +34,8 @@
                     <div class="highlight-text  bg-[#fff] !text-[var(--color-blue)] pl-[12px] py-[8px]">『新車のような輝き』を取り戻しませんか？</div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="300" class="justify-start w-full text-center mt-[30px] tracking-[1px] md:w-[411px] md:text-left md:mt-0 md:tracking-[1.6px]">
-                    <span class="block text-base font-medium leading-loose mb-[41px]">当窓口は、<br/>石川県金沢を拠点にカーコーティングや、<br/>洗車のご相談を承っております。<br/></span>
-                    <span class="inline-block bg-[var(--color-blue-50)] box-decoration-clone leading-[20px] text-[18px] text-white font-medium tracking-[1.8]">当窓口からのご依頼には、<br/></span>
-                    <span class="inline-block bg-[var(--color-blue-50)] box-decoration-clone leading-[20px] text-[18px] text-white font-medium tracking-[1.8] mt-[13px]">全車AIMS製の最先端コーティング剤を使用。<br/></span>
+                    <span class="block text-base font-medium leading-loose mb-[31px]">当窓口は、<br/>石川県金沢を拠点にカーコーティングや、<br/>洗車のご相談を承っております。<br/></span>
+                    <span class="inline bg-[linear-gradient(180deg,transparent_10%,var(--color-blue-50)_0)] box-decoration-clone leading-[1.5] md:leading-[2] text-[18px] text-white font-medium tracking-[1.8]">当窓口からのご依頼には、<br/><span class="block mb-[15px] md:hidden"></span>全車AIMS製の<br class="md:hidden"/>最先端コーティング剤を使用。<br/></span>
                     <span class="block text-base font-medium leading-loose mt-[3px]"><br/>新車・中古車、国産・輸入車を問わず、<br/>どんな車種でも柔軟に対応いたします。<br/>皆さまの愛車の美観や耐久性を守り、<br/>安心できるカーライフをお届けいたしますので、<br/>コーティングや洗車のご依頼先にお困りの方は、<br/>ぜひお気軽にご相談ください。</span>
                 </div>
             </div>
@@ -53,27 +52,27 @@
             <div class="flex justify-center min-[480px]:justify-between md:justify-center items-start gap-x-0 gap-y-7 md:gap-x-7 flex-wrap mt-[48px]">
                 <div data-aos="fade-up" data-aos-delay="100" class="w-[340px] min-[480px]:w-[calc(50%-15px)] flex flex-col justify-start items-start gap-3.5 md:w-[340px]">
                     <img class="aspect-[340/210] object-cover object-center" src="<?= THEME_URL ?>/images/trouble_list_img-01.webp" />
-                    <div class="self-stretch text-center justify-center text-white text-sm font-bold tracking-normal leading-[20px] md:leading-[27px] md:tracking-widest md:text-xl">納車日にあわせてコーティング<br/>してくれるところを探している</div>
+                    <div class="self-stretch text-center justify-center text-white text-[16px] font-bold tracking-normal leading-[20px] md:leading-[27px] md:tracking-widest md:text-xl">納車日にあわせてコーティング<br/>してくれるところを探している</div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="200" class="w-[340px] min-[480px]:w-[calc(50%-15px)] flex flex-col justify-start items-start gap-3.5 md:w-[340px]">
                     <img class="aspect-[340/210] object-cover object-center" src="<?= THEME_URL ?>/images/trouble_list_img-02.webp" />
-                    <div class="self-stretch text-center justify-center text-white text-sm font-bold tracking-normal leading-[20px] md:leading-[27px] md:tracking-widest md:text-xl">コーティングの種類が多くて、<br/>どれが合うのか分からない</div>
+                    <div class="self-stretch text-center justify-center text-white text-[16px] font-bold tracking-normal leading-[20px] md:leading-[27px] md:tracking-widest md:text-xl">コーティングの種類が多くて、<br/>どれが合うのか分からない</div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="300" class="w-[340px] min-[480px]:w-[calc(50%-15px)] flex flex-col justify-start items-start gap-3.5 md:w-[340px]">
                     <img class="aspect-[340/210] object-cover object-center" src="<?= THEME_URL ?>/images/trouble_list_img-03.webp" />
-                    <div class="self-stretch text-center justify-center text-white text-sm font-bold tracking-normal leading-[20px] md:leading-[27px] md:tracking-widest md:text-xl">車がない時間があると困るため<br/>車を預けることに抵抗がある</div>
+                    <div class="self-stretch text-center justify-center text-white text-[16px] font-bold tracking-normal leading-[20px] md:leading-[27px] md:tracking-widest md:text-xl">車がない時間があると困るため<br/>車を預けることに抵抗がある</div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="400" class="w-[340px] min-[480px]:w-[calc(50%-15px)] flex flex-col justify-start items-start gap-3.5 md:w-[340px]">
                     <img class="aspect-[340/210] object-cover object-center" src="<?= THEME_URL ?>/images/trouble_list_img-04.webp" />
-                    <div class="self-stretch text-center justify-center text-white text-sm font-bold tracking-normal leading-[20px] md:leading-[27px] md:tracking-widest md:text-xl">施工後すぐに艶が消えないか心配</div>
+                    <div class="self-stretch text-center justify-center text-white text-[16px] font-bold tracking-normal leading-[20px] md:leading-[27px] md:tracking-widest md:text-xl">施工後すぐに艶が消えないか心配</div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="500" class="w-[340px] min-[480px]:w-[calc(50%-15px)] flex flex-col justify-start items-start gap-3.5 md:w-[340px]">
                     <img class="aspect-[340/210] object-cover object-center" src="<?= THEME_URL ?>/images/trouble_list_img-05.webp" />
-                    <div class="self-stretch text-center justify-center text-white text-sm font-bold tracking-normal leading-[20px] md:leading-[27px] md:tracking-widest md:text-xl">洗車したいけど、機械でやるのは傷がつかないか心配</div>
+                    <div class="self-stretch text-center justify-center text-white text-[16px] font-bold tracking-normal leading-[20px] md:leading-[27px] md:tracking-widest md:text-xl">洗車したいけど、<br class="md:hidden"/>機械でやるのは傷がつかないか心配</div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="600" class="w-[340px] min-[480px]:w-[calc(50%-15px)] flex flex-col justify-start items-start gap-3.5 md:w-[340px]">
                     <img class="aspect-[340/210] object-cover object-center" src="<?= THEME_URL ?>/images/trouble_list_img-06.webp" />
-                    <div class="self-stretch text-center justify-center text-white text-sm font-bold tracking-normal leading-[20px] md:leading-[27px] md:tracking-widest md:text-xl">愛車を丁寧に扱ってもらえる<br/>ところに頼みたい</div>
+                    <div class="self-stretch text-center justify-center text-white text-[16px] font-bold tracking-normal leading-[20px] md:leading-[27px] md:tracking-widest md:text-xl">愛車を丁寧に扱ってもらえる<br/>ところに頼みたい</div>
                 </div>
             </div>
         </div>
@@ -87,7 +86,7 @@
         <div class="contents_box">
             <div data-aos="fade-up" class="flex flex-col items-center w-full">
                 <h3 class="section-title ">COMIC</h3>
-                <div class="highlight-text mt-[-3px] pl-[32px]">マンガで分かる愛車の輝きコンシェルジュ？</div>
+                <div class="highlight-text mt-[-3px] md:pl-[32px]">マンガで分かる愛車の輝きコンシェルジュ？</div>
             </div>
             <div data-aos="fade-up" data-aos-delay="200" class="w-full md:w-[760px] mx-auto mt-[47px] aspect-[760/427] object-cover object-center bg-[#C7C7C7]"></div>
         </div>
@@ -240,7 +239,7 @@
     </section>
     <section class="relative py-[50px] md:pt-[80px] md:pb-[78px] overflow-hidden">
         <img class="w-full !h-full left-auto right-0 md:left-0 top-0 absolute object-[0%_center] md:object-center object-cover" src="<?= THEME_URL ?>/images/cta_bg.webp" alt="">
-        <div class="contents_box relative !w-full max-w-[1280px] px-[20px] min-[1320px]:!max-w-[1320px] relative z-[1]">
+        <div class="contents_box relative !w-full !max-w-[1320px] px-[20px] min-[1320px]:!max-w-[1320px] relative z-[1]">
             <div class="flex justify-between items-center flex-col gap-5 md:flex-row md:gap-0">
                 <div data-aos="fade-up" class="w-full md:w-[calc(50%-30px)]">
                     <div class="section-title !text-white">CONTACT</div>
@@ -255,7 +254,7 @@
                             <span class="block text-[14px] text-[var(--color-blue-50)] font-medium leading-1 tracking-[0.2px] mt-[6px]">営業時間│9 : 00～19 : 00(不定休)</span>
                         </a>
                     </div>
-                    <a href="#inquiry" class="flex btn bg-[var(--color-blue-50)] rounded-[8px] w-full md:w-[260px] h-[50px] md:h-[70px] flex items-center justify-center text-white gap-3">
+                    <a href="https://line.me/R/ti/p/@564totjb" target="_blank" class="flex btn bg-[var(--color-blue-50)] rounded-[8px] w-full md:w-[260px] h-[50px] md:h-[70px] flex items-center justify-center text-white gap-3">
                         <img class="w-[22px]" src="<?= THEME_URL;?>/images/icon-line.svg" alt="">
                         <span>LINEで簡単問い合わせ</span>
                     </a>

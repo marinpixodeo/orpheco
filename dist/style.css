@@ -92,6 +92,9 @@
   .z-\[1\] {
     z-index: 1;
   }
+  .z-\[10\] {
+    z-index: 10;
+  }
   .mx-0 {
     margin-inline: calc(var(--spacing) * 0);
   }
@@ -170,8 +173,17 @@
   .mr-\[10px\] {
     margin-right: 10px;
   }
+  .mb-\[-10px\] {
+    margin-bottom: -10px;
+  }
+  .mb-\[10px\] {
+    margin-bottom: 10px;
+  }
   .mb-\[15px\] {
     margin-bottom: 15px;
+  }
+  .mb-\[31px\] {
+    margin-bottom: 31px;
   }
   .mb-\[41px\] {
     margin-bottom: 41px;
@@ -265,8 +277,11 @@
   .w-full {
     width: 100%;
   }
-  .max-w-\[200px\] {
-    max-width: 200px;
+  .\!max-w-\[1320px\] {
+    max-width: 1320px !important;
+  }
+  .max-w-\[135px\] {
+    max-width: 135px;
   }
   .max-w-\[340px\] {
     max-width: 340px;
@@ -462,6 +477,9 @@
   }
   .bg-white {
     background-color: var(--color-white);
+  }
+  .bg-\[linear-gradient\(180deg\,transparent_10\%\,var\(--color-blue-50\)_0\)\] {
+    background-image: linear-gradient(180deg,transparent 10%,var(--color-blue-50) 0);
   }
   .bg-\[linear-gradient\(180deg\,transparent_20\%\,var\(--color-blue-50\)_0\)\] {
     background-image: linear-gradient(180deg,transparent 20%,var(--color-blue-50) 0);
@@ -659,6 +677,10 @@
   .leading-10 {
     --tw-leading: calc(var(--spacing) * 10);
     line-height: calc(var(--spacing) * 10);
+  }
+  .leading-\[1\.5\] {
+    --tw-leading: 1.5;
+    line-height: 1.5;
   }
   .leading-\[20px\] {
     --tw-leading: 20px;
@@ -909,6 +931,11 @@
   .md\:block {
     @media (width >= 48rem) {
       display: block;
+    }
+  }
+  .md\:hidden {
+    @media (width >= 48rem) {
+      display: none;
     }
   }
   .md\:inline-block {
@@ -1203,6 +1230,11 @@
       padding-left: 10px;
     }
   }
+  .md\:pl-\[32px\] {
+    @media (width >= 48rem) {
+      padding-left: 32px;
+    }
+  }
   .md\:pl-\[38px\] {
     @media (width >= 48rem) {
       padding-left: 38px;
@@ -1257,6 +1289,18 @@
   .md\:text-\[170px\] {
     @media (width >= 48rem) {
       font-size: 170px;
+    }
+  }
+  .md\:leading-\[2\] {
+    @media (width >= 48rem) {
+      --tw-leading: 2;
+      line-height: 2;
+    }
+  }
+  .md\:leading-\[20px\] {
+    @media (width >= 48rem) {
+      --tw-leading: 20px;
+      line-height: 20px;
     }
   }
   .md\:leading-\[24px\] {
